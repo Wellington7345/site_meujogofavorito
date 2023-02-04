@@ -58,6 +58,33 @@ section p {
     margin-right: auto;
 }
 
+#newsletter .container {
+    display: block;
+}
+
+.newsletter-form {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form button {
+    background-color: #2c2b2b;
+    color: #37ca50;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #777777;
+}
 
 footer {
     background-color: #2c2b2b;
